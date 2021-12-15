@@ -1,0 +1,27 @@
+.container-login{
+  display:flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container-form{
+  width: 40%;
+  height: 55%;
+  /* background-color:red; */
+  margin: auto;
+  vertical-align: middle;
+}
+
+.form-container{
+  display: flex;
+  height:100%;
+  flex-direction: column;
+  /* justify-content: center; */
+}
+
+.login-button{
+  width: 250px;
+  margin: 0 auto;
+  margin-top: 10px;
+}

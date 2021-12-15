@@ -1,0 +1,21 @@
+header{
+  display: flex;
+  flex-direction: row;
+}
+header ul{
+  width: 70%;
+}
+header button{
+  width: 30%;
+  justify-content: center;
+  border: unset;
+  background-color: blue;
+  text-align: center;
+}
+
+.products-container{
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

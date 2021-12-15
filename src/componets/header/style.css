@@ -1,0 +1,32 @@
+header{
+  display:flex;
+  justify-content:space-between;
+  margin-top: 10px;
+}
+
+header nav{
+  display: flex;
+  vertical-align:middle;
+}
+
+header ul{
+  list-style-type:none;
+  display: flex;
+}
+
+header li{
+  margin-left:20px;
+  font-size: 1.3rem;
+}
+
+.auth-button{
+  background-color: transparent;
+  margin-right: 5px;
+  border-color: black;
+  border-width: 1px;
+  border-style: solid;
+}
+
+header p{
+  margin-right: 20px;
+}

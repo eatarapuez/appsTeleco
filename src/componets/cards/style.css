@@ -1,0 +1,45 @@
+.container {
+  width: 270px;
+  height: 360px;
+  margin: 10px 20px;
+  border: 0.1px solid;
+  border-color: gray;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+picture img {
+  width: 100%;
+  height: 230px;
+}
+
+.product-name {
+  font-size: 1.3rem;
+  margin-left: 5px;
+}
+
+.quantity-controller {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 30px;
+  height: 30px;
+}
+
+.quantity-controller button {
+  background-color: gray;
+  border-style: none;
+  border-radius: 5%;
+  padding: 0 20px;
+}
+
+.quantity-controller button p {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.quantity-controller p{
+  /* display: table-cell; */
+  vertical-align: middle;
+  margin-top: 5px;
+}
